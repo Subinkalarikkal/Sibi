@@ -35,3 +35,75 @@
 #        ->  4 object for each class
 # 26 - Write a program to show an example for single, multiple and multi - level inheritance
 # 27 - Write a program to show an example for polymorphism and encapsulation
+
+# a = int(input("Enter the first integer: "))
+# b = int(input("Enter the second integer: "))
+# c = float(input("Enter a float: "))
+#
+# if a < b and a < c:
+#     print("a is the smallest")
+# elif b < c and b < a:
+#     print("b is the smallest")
+# else:
+#     print("c is the smallest")
+
+
+# a = float(input("Enter a float"))
+# b = float(input("Enter another float"))
+#
+# if a > b:
+#     print("a is the largest")
+# else:
+#     print("b is the largest")
+
+
+
+
+# for i in range(10, 21):
+#     if i % 2 == 0:
+#         print(i)
+# #
+#
+#
+#
+# for i in range(15, 26):
+#     if i % 2 != 0:
+#         print(i)
+#
+
+#
+#
+# ch = input("Enter a character: ")[0]
+# print("Character entered:", ch)
+
+
+#
+#
+# text = input("Enter a string: ")
+# print("String entered:", text)
+#
+#
+#
+# a = float(input("Enter the first float: "))
+# b = float(input("Enter the second integer: "))
+# c = float(input("Enter a float: "))
+#
+# if a < b and a < c:
+#     print("a is the smallest")
+# elif b < c and b < a:
+#     print("b is the smallest")
+# else:
+#     print("c is the smallest")
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
