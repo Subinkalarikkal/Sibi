@@ -36,6 +36,7 @@
 # 26 - Write a program to show an example for single, multiple and multi - level inheritance
 # 27 - Write a program to show an example for polymorphism and encapsulation
 
+#Question1
 # a = int(input("Enter the first integer: "))
 # b = int(input("Enter the second integer: "))
 # c = float(input("Enter a float: "))
@@ -48,6 +49,7 @@
 #     print("c is the smallest")
 
 
+#Question2
 # a = float(input("Enter a float"))
 # b = float(input("Enter another float"))
 #
@@ -58,32 +60,32 @@
 
 
 
-
+#Question3
 # for i in range(10, 21):
 #     if i % 2 == 0:
 #         print(i)
 # #
 #
 #
-#
+##Question4
 # for i in range(15, 26):
 #     if i % 2 != 0:
 #         print(i)
 #
 
 #
-#
-# ch = input("Enter a character: ")[0]
+##Question5
+# ch = input("Enter a character: ")
 # print("Character entered:", ch)
 
 
 #
-#
+##Question6
 # text = input("Enter a string: ")
 # print("String entered:", text)
 #
 #
-#
+##Question7
 # a = float(input("Enter the first float: "))
 # b = float(input("Enter the second integer: "))
 # c = float(input("Enter a float: "))
@@ -95,7 +97,7 @@
 # else:
 #     print("c is the smallest")
 #
-#
+##Question8
 #
 #
 #
