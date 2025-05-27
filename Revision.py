@@ -98,14 +98,53 @@
 #     print("c is the smallest")
 #
 ##Question8
+
+# months = int(input("Months: ")) * 30 * 24 * 60 * 60
+# days = int(input("Days: ")) * 24 * 60 * 60
+# hours = int(input("Hours: ")) * 60 * 60
+# minutes = int(input("Minutes: ")) * 60
+# seconds = int(input("Seconds: "))
 #
+# total = months + days + hours + minutes + seconds
+# print("Total seconds:", total)
+
+# Question9
+# adults = int(input("Adults: "))
+# children = int(input("Children: "))
 #
+# total = adults * 10 + children * 7
+# print("Total cost: $", total)
 #
+
+# Question10
+# total = 0
+# for i in range(10):
+#     amount = float(input("Day " + str(i+1) + " savings: "))
+#     total += amount
 #
+# average = total / 10
+# print("Total saved:", total)
+# print("Average per day:", average)
 #
-#
-#
-#
-#
-#
+# if average >= 20:
+#     print("Excellent Saver!")
+# elif average >= 10:
+#     print("Good Savings Habits!")
+# else:
+#     print("Save More Consistently!")
+
+
+#Question11
+# my_set = set()
+# my_set.add("apple")
+# print(my_set)
+
+
+#Question12
+# my_set = {"apple", "banana"}
+# my_set.remove("banana")
+# print(my_set)
+
+
+
 
