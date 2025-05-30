@@ -146,5 +146,32 @@
 # print(my_set)
 
 
+#Question13
+# set1 = {1, 2, 3}
+# set2 = {3, 4, 5}
+# union_set = set1.union(set2)
+# print("Union of sets:", union_set)
+#
+# #Question14
+# common_elements = set1.intersection(set2)
+# print("Common elements:", common_elements)
 
-
+# #Question15
+# my_dict = {"name": "Alice", "age": 25}
+# print("Access 'name':", my_dict["name"])
+#
+# #Question16
+# my_dict["city"] = "New York"
+# print("After adding 'city':", my_dict)
+#
+# #Question17
+# print("After deleting 'age':", my_dict)
+#
+# #Question18
+# my_dict["name"] = "Bob"
+# print("After changing 'name':", my_dict)
+#
+# #Question19
+# print("Looping through dictionary:")
+# for key, value in my_dict.items():
+#     print(key, ":", value)
