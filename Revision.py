@@ -175,3 +175,40 @@
 # print("Looping through dictionary:")
 # for key, value in my_dict.items():
 #     print(key, ":", value)
+#Question 20
+# print("20 - Copy the Dictionary")
+# original_dict = {'a': 1, 'b': 2, 'c': 3}
+# copied_dict = original_dict.copy()
+# print("Copied Dictionary:", copied_dict)
+# print("-" * 50)
+#
+# #Question21
+# print("21 - Add Data into the Tuple")
+# original_tuple = (1, 2, 3)
+# new_data = (4,)  # Adding element 4
+# updated_tuple = original_tuple + new_data
+# print("Updated Tuple:", updated_tuple)
+# print("-" * 50)
+#
+# Question22
+# print("22 - Remove 'mango' from the Tuple")
+# fruits = ("apple", "banana", "mango", "orange")
+# fruits_list = list(fruits)
+# fruits_list.remove("mango")
+# updated_fruits = tuple(fruits_list)
+# print("Tuple after removing 'mango':", updated_fruits)
+# print("-" * 50)
+#
+#Question23
+# print("23 - Remove the 3rd Index Data from the Tuple")
+# data = (10, 20, 30, 40, 50)
+# data_list = list(data)
+# del data_list[3]
+
+#Question24
+# start = 1
+# end = 20
+# even_sum = sum(i for i in range(start, end + 1) if i % 2 == 0)
+# print("Sum of even numbers:", even_sum)
+
+
