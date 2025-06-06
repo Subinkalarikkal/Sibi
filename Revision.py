@@ -212,3 +212,134 @@
 # print("Sum of even numbers:", even_sum)
 
 
+
+#Question25
+# class Student:
+#     def __init__(self, name, age, grade):
+#         self.name = name
+#         self.age = age
+#         self.grade = grade
+#
+# class Teacher:
+#     def __init__(self, name, subject, experience):
+#         self.name = name
+#         self.subject = subject
+#         self.experience = experience
+
+
+#Question26
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
+#
+#     def speak(self):
+#         print("Generic animal sound")
+#
+# class Dog(Animal):
+#     def speak(self):
+#         print("Woof!")
+#
+# # Multiple Inheritance
+# class Swimmer:
+#     def swim(self):
+#         print("Swimming")
+#
+# class Flyer:
+#     def fly(self):
+#         print("Flying")
+#
+# class FlyingFish(Swimmer, Flyer):
+#     pass
+#
+# # Multi-level Inheritance
+# class Vehicle:
+#     def start(self):
+#         print("Vehicle started")
+#
+# class Car(Vehicle):
+#     def drive(self):
+#         print("Car driving")
+#
+# class ElectricCar(Car):
+#     def charge(self):
+#         print("Car charging")
+#
+# # Example Usage
+# if __name__ == "__main__":
+#     # Single Inheritance
+#     dog = Dog("Buddy")
+#     dog.speak()
+#
+#     # Multiple Inheritance
+#     flying_fish = FlyingFish()
+#     flying_fish.swim()
+#     flying_fish.fly()
+#
+#     # Multi-level Inheritance
+#     electric_car = ElectricCar()
+#     electric_car.start()
+#     electric_car.drive()
+#     electric_car.charge()
+#Question27
+# #class BankAccount:
+#     def __init__(self, balance):
+#         self.__balance = balance  # Private attribute
+#
+#     def deposit(self, amount):
+#         if amount > 0:
+#             self.__balance += amount
+#
+#     def withdraw(self, amount):
+#         if 0 < amount <= self.__balance:
+#             self.__balance -= amount
+#         else:
+#             print("Insufficient balance or invalid amount.")
+#
+#     def get_balance(self):
+#         return self.__balance
+#
+# # Example usage
+# account = BankAccount(1000)
+# account.deposit(500)
+# account.withdraw(200)
+# print("Current balance:", account.get_balance())
+
+
+# Question27
+#
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
+#
+#     def speak(self):
+#         pass
+#
+# class Dog(Animal):
+#     def speak(self):
+#         return "Woof!"
+#
+# class Cat(Animal):
+#     def speak(self):
+#         return "Meow!"
+#
+# class Bird(Animal):
+#     def speak(self):
+#         return "Tweet!"
+#
+# def animal_sound(animal):
+#     print(f"{animal.name} says {animal.speak()}")
+#
+# dog = Dog("Buddy")
+# cat = Cat("Whiskers")
+# bird = Bird("Tweety")
+#
+# animal_sound(dog)
+# animal_sound(cat)
+# animal_sound(bird)
+#
+#
+#
+#
+#
+#
+#
