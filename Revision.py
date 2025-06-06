@@ -214,20 +214,84 @@
 
 
 #Question25
-# class Student:
-#     def __init__(self, name, age, grade):
-#         self.name = name
-#         self.age = age
-#         self.grade = grade
+# class Car:
+#     def __init__(self, model, color, year):
+#         self.model = model
+#         self.color = color
+#         self.year = year
 #
-# class Teacher:
-#     def __init__(self, name, subject, experience):
+# class Book:
+#     def __init__(self, title, author, pages):
+#         self.title = title
+#         self.author = author
+#         self.pages = pages
+#
+# class Student:
+#     def __init__(self, name, student_id, major):
 #         self.name = name
-#         self.subject = subject
-#         self.experience = experience
-
-
-#Question26
+#         self.student_id = student_id
+#         self.major = major
+#
+# class Animal:
+#     def __init__(self, species, breed, age):
+#         self.species = species
+#         self.breed = breed
+#         self.age = age
+#
+# class Employee:
+#     def __init__(self, name, employee_id, department):
+#         self.name = name
+#         self.employee_id = employee_id
+#         self.department = department
+#
+# class Shape:
+#     def __init__(self, type, color, area):
+#         self.type = type
+#         self.color = color
+#         self.area = area
+#
+# # Creating 4 objects for each class
+# car1 = Car("Sedan", "Red", 2020)
+# car2 = Car("SUV", "Blue", 2022)
+# car3 = Car("Hatchback", "Black", 2021)
+# car4 = Car("Truck", "White", 2023)
+#
+# book1 = Book("The Lord of the Rings", "J.R.R. Tolkien", 1200)
+# book2 = Book("Pride and Prejudice", "Jane Austen", 400)
+# book3 = Book("1984", "George Orwell", 300)
+# book4 = Book("To Kill a Mockingbird", "Harper Lee", 300)
+#
+# student1 = Student("Alice", 12345, "Computer Science")
+# student2 = Student("Bob", 67890, "Physics")
+# student3 = Student("Charlie", 13579, "Mathematics")
+# student4 = Student("Diana", 24680, "Chemistry")
+#
+# animal1 = Animal("Dog", "Labrador", 3)
+# animal2 = Animal("Cat", "Siamese", 5)
+# animal3 = Animal("Bird", "Parrot", 2)
+# animal4 = Animal("Fish", "Goldfish", 1)
+#
+# employee1 = Employee("John Doe", 54321, "IT")
+# employee2 = Employee("Jane Smith", 98765, "HR")
+# employee3 = Employee("Peter Jones", 11223, "Finance")
+# employee4 = Employee("Mary Brown", 44556, "Marketing")
+#
+# shape1 = Shape("Circle", "Green", 25)
+# shape2 = Shape("Square", "Yellow", 16)
+# shape3 = Shape("Triangle", "Blue", 10)
+# shape4 = Shape("Rectangle", "Red", 20)
+#
+# # You can access the attributes of each object like this:
+# print(car1.model)
+# print(book2.author)
+# print(student3.major)
+# print(animal4.age)
+# print(employee1.department)
+# print(shape2.color)
+#
+#
+#
+# Question26
 # class Animal:
 #     def __init__(self, name):
 #         self.name = name
@@ -239,7 +303,7 @@
 #     def speak(self):
 #         print("Woof!")
 #
-# # Multiple Inheritance
+# Multiple Inheritance
 # class Swimmer:
 #     def swim(self):
 #         print("Swimming")
