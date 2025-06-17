@@ -400,10 +400,60 @@
 # animal_sound(dog)
 # animal_sound(cat)
 # animal_sound(bird)
+
+#Question28
+# class Person:
+#     def greet(self):
+#         return "Hello from Person"
+#
+# class Employee(Person):
+#     def greet(self):
+#         return "Hello from Employee"
+#
+# class Manager(Employee):
+#     def greet(self):
+#         return "Hello from Manager"
 #
 #
+# p = Person()
+# e = Employee()
+# m = Manager()
 #
+# print(p.greet())  # Output: Hello from Person
+# print(e.greet())  # Output: Hello from Employee
+# print(m.greet())  # Output: Hello from Manager
+
+#Question 29
+# class EducationInstitution:
+#     def info(self):
+#         return "This is an educational institution"
 #
+# class School(EducationInstitution):
+#     def info(self):
+#         return "This is a school"
+# class HighSchool(School):
+#     def info(self):
+#         return "This is a high school"
+# hs = HighSchool()
+# print(hs.info())
+
+
+
+#Question30
+# class Appliance:
+#     def operate(self):
+#         return "Appliance is operating"
+#
+# class WashingMachine(Appliance):
+#     def operate(self):
+#         return "Washing Machine is running"
+#
+# class SmartWasher(WashingMachine):
+#     def operate(self):
+#         return "Smart Washer runs with AI control"
+# sw = SmartWasher()
+# print(sw.operate())
+
 #
 #
 #
