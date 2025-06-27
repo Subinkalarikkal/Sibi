@@ -16,3 +16,30 @@
 # arr = np.array([1, 2, 3, 4, 5, 6, 7])
 #
 # print(arr[1:5])
+
+#Data types
+#
+# import numpy as np
+#
+# arr = np.array([1, 2, 3, 4])
+#
+# print(arr.dtype)
+
+#Copy vs view
+
+# import numpy as np
+#
+# arr = np.array([1, 2, 3, 4, 5])
+# x = arr.copy()
+# arr[0] = 42
+#
+# print(arr)
+# print(x)
+
+
+#array shape
+# import numpy as np
+#
+# arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+#
+# print(arr.shape)
